@@ -1,0 +1,95 @@
+@media screen and (max-width:500px) {
+  body{position:absolute;}
+  .sub_container{display:block;}
+  #my_name{font-size: 0.5em;}
+  #main_image{height:100px}
+}
+
+body {
+  font-family:Arial;
+}
+
+hr {
+  background-color:gray;
+  height:5px;
+  border:0;
+}
+
+.header_logo {
+  font-size:100px;
+  float:left;
+  margin:20px;
+}
+
+.header_title {
+  font-size:100px;
+  float:right;
+  overflow:auto;
+}
+
+.main_image_container {
+  clear:both;
+}
+
+.main_image {
+  width:50%;
+  height:300px;
+  display:block;
+  margin:auto;
+}
+
+.display_work_container {
+  display:flex;
+  width:100%;
+  flex-wrap:wrap;
+}
+
+.sub_container{
+  display:inline-block;
+  margin:auto;
+}
+
+.section_title {
+  font-size:50px;
+  color:grey;
+  padding:10px;
+  border:10px;
+  margin:10px;
+}
+
+.caption {
+  text-align: left;
+  font-size: 14px;
+}
+
+.picture {
+  height:200px;
+  text-align: center;
+}
+
+#logo {
+  height:100px;
+  width:100px;
+}
+
+#main_image {
+  width:50%;
+  height:300px;
+  display:block;
+  margin:auto;
+}
+
+#main_image_caption {
+  text-align: center;
+  display:block;
+}
+
+#introduction_header {
+  margin:5px;
+}
+
+#opening_description {
+  font-size:20px;
+  margin:5px;
+  text-align:right;
+}
