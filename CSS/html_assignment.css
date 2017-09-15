@@ -2,7 +2,6 @@
   body{position:absolute;}
   .sub_container{display:block;}
   #my_name{font-size: 0.5em;}
-  #main_image{height:100px}
 }
 
 body {
@@ -64,6 +63,9 @@ hr {
 
 .picture {
   height:200px;
+  max-width: 100%;
+  max-height: 100%;
+  display:block;
   text-align: center;
 }
 
@@ -73,10 +75,10 @@ hr {
 }
 
 #main_image {
-  width:50%;
-  height:300px;
   display:block;
   margin:auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #main_image_caption {
